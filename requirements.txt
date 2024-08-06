@@ -54,8 +54,11 @@ telegraph
 tgcrypto
 unidecode
 wget
-### yt-dlp
-youtube-search
-youtube-search-python
+youtube-search==2.1.2
+youtube-search-python==1.6.6
 youtube_dl==2021.12.17
-yt-dlp==2024.7.9
+yt-dlp==2024.05.27
+search-youtube-url
+unlimited-youtube-search
+youtube-unlimited-search
+youtube-search-requests
