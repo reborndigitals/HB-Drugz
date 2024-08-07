@@ -20,7 +20,7 @@ async def _whisper(_, inline_query):
                 title="⦿ Wʜɪsᴘᴇʀ ⦿",
                 description=f"@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]",
                 input_message_content=InputTextMessageContent(f"⦿ Usᴀɢᴇ:\n\n@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]"),
-                thumb_url="https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+                thumb_url="https://graph.org/file/ffdb1be822436121cf5fd.png",
                 reply_markup=switch_btn
             )
         ]
@@ -38,14 +38,14 @@ async def _whisper(_, inline_query):
                     title="⦿ Wʜɪsᴘᴇʀ ⦿",
                     description=f"Sᴇɴᴅ A Wʜɪsᴘᴇʀ Tᴏ {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"⦿ Yᴏᴜ Aʀᴇ Sᴇɴᴅɪɴɢ A Wʜɪsᴘᴇʀ Tᴏ {user.first_name}.\n\nTʏᴘᴇ Uʀ Mᴇssᴀɢᴇ/Sᴇɴᴛᴇɴᴄᴇ."),
-                    thumb_url="https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+                    thumb_url="https://graph.org/file/ffdb1be822436121cf5fd.png",
                     reply_markup=whisper_btn
                 ),
                 InlineQueryResultArticle(
                     title="➤ Oɴᴇ-Tɪᴍᴇ Wʜɪsᴘᴇʀ",
                     description=f"Sᴇɴᴅ A Oɴᴇ-Tɪᴍᴇ Wʜɪsᴘᴇʀ Tᴏ {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"☞ Yᴏᴜ Aʀᴇ Sᴇɴᴅɪɴɢ A Oɴᴇ-Tɪᴍᴇ Wʜɪsᴘᴇʀ Tᴏ {user.first_name}.\n\nTʏᴘᴇ Uʀ Mᴇssᴀɢᴇ/Sᴇɴᴇᴛᴇɴᴄᴇ."),
-                    thumb_url="https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+                    thumb_url="https://graph.org/file/ffdb1be822436121cf5fd.png",
                     reply_markup=one_time_whisper_btn
                 )
             ]
@@ -57,7 +57,7 @@ async def _whisper(_, inline_query):
                     title="⦿ Wʜɪsᴘᴇʀ ⦿",
                     description="Iɴᴠᴀʟɪᴅ Usᴇʀɴᴀᴍᴇ ᴏʀ Iᴅ!",
                     input_message_content=InputTextMessageContent("ɪɴᴠᴀʟɪᴅ Usᴇʀɴᴀᴍᴇ ᴏʀ Iᴅ!"),
-                    thumb_url="https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+                    thumb_url="https://graph.org/file/ffdb1be822436121cf5fd.png",
                     reply_markup=switch_btn
                 )
             ]
@@ -104,7 +104,7 @@ async def in_help():
             title="⦿ Whisper ⦿",
             description=f"@thedakkidaikathaval_bot [USERNAME | ID] [TEXT]",
             input_message_content=InputTextMessageContent(f"**❍ Usage:**\n\n@thedakkidaikathaval_bot (Target Username or ID) (Your Message).\n\n**Example:**\n@thedakkidaikathaval_bot @username I Wanna Phuck You"),
-            thumb_url="https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+            thumb_url="https://graph.org/file/ffdb1be822436121cf5fd.png",
             reply_markup=switch_btn
         )
     ]
