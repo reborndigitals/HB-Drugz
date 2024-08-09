@@ -57,5 +57,6 @@ wget
 youtube-search
 youtube-search-python
 youtube_dl
-yt-dlp==2024.5.26
+#yt-dlp
+git+https://github.com/aswini-skysea/yt-dlp
 search-youtube-url
