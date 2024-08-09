@@ -57,5 +57,5 @@ wget
 youtube-search
 youtube-search-python
 youtube_dl
-yt-dlp
+yt-dlp==2024.7.25
 search-youtube-url
