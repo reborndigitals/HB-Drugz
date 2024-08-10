@@ -17,7 +17,7 @@ BOT_USERNAME = getenv("BOT_USERNAME", "thedakkidaikathaval_bot")
 BOT_NAME = getenv("BOT_NAME", "𝞖𝘌𝘈𝘙𝘛𝞑𝘌𝘈𝘛𝂬♡𝂬𝘿𝘙𝘜𝘎𝘡")
 ASSUSERNAME = getenv("ASSUSERNAME", "ice_babygirl")
 EVALOP = list(map(int, getenv("EVALOP", "5059737154").split()))
-MONGO_DB_URI = getenv("MONGO_DB_URI",)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001735663878"))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
@@ -28,7 +28,7 @@ OWNER_ID = int(getenv("OWNER_ID", 1281282633))
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/rajeshrakis/HB-Drugz")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/aswini-skysea/HB-Drugz")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -52,7 +52,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
 # Pyrogram session strings - You need to generate these yourself
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQFpIMIAwcW2f2dxsOjPW85YtBK9FHvobnYqqvHOQWN_QOB2qdAfYW1atKHKkYUTqtRNUC7mIWpqS1NClflpBtYgQv6RzPVJ8IYvx5YEbRtmUwfd2IVIFydJzndmLidzdYrCUPoQ-Wjo3P1CO7l98NWZ6IsdGO6o8dFcOoICTA8Xqn-lkl-FM3CtU4AzroZl27-n-Dx1AIo-mz6Wwx1ec7uO1GVhE8nRk-DLltPC77MldVk20Qjqt3EMbFoBTS-4HxnjeqGUaoTGh0xiPFT0i2F5FnVVTiR5GRnqdV-odUV7B7HYprmEUIUuTFY6qFV51hvBhUxr8I-PxBaw5zcpLHtVuiHZsAAAAAGaGrhtAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
