@@ -10,7 +10,7 @@ from pyrogram.errors import (
 from ANNIEMUSIC.utils.database import get_assistant
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from ANNIEMUSIC import YouTube, app, YTB
+from ANNIEMUSIC import YouTube, app
 from ANNIEMUSIC.core.call import JARVIS
 from ANNIEMUSIC.misc import SUDOERS, db
 from ANNIEMUSIC.utils.database import (
@@ -410,15 +410,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     video=status,
                 )
             except:
-                try:
-                    file_path, direct = await YTB.download(
-                        videoid,
-                        mystic,
-                        videoid=True,
-                        video=status,
-                    )
-                except:
-                    return await mystic.edit_text(_["call_6"])
+                return await mystic.edit_text(_["call_6"])
             try:
                 image = await YouTube.thumbnail(videoid, True)
             except:
@@ -583,7 +575,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         )
 
 async def markup_timer():
-    while not await asyncio.sleep(5):
+    while not await asyncio.sleep(807):
         active_chats = await get_active_chats()
         for chat_id in active_chats:
             try:
